@@ -1,11 +1,11 @@
 # Boilerplate for modern JS libraries
 
 This boilerplate allows you to get up an running quickly when developing modern,
-ES6-based JavaScript library or app. It comes baked in with
+ES6-based JavaScript library or app. It comes with configurations for
 
-- Babel
-- Browserify
-- Make
+- [Babel](http://babeljs.io/)
+- [Browserify](http://browserify.org/)
+- [Make](https://www.gnu.org/software/make/)
 
 and takes care of tying them together. That’s it, nothing else.
 
@@ -15,7 +15,7 @@ Node, NPM, and Make.
 
 ## Getting Started
 
-All your code should go into `/src`, with `/src/app.js` being the main entry
+All your code should go into `src/`, with `src/app.js` being the main entry
 point for your application. Put all your `import`s there.
 
 ## Bundling Your Code
@@ -43,4 +43,5 @@ Feel free to swap this out in favor of your preferred solution.
 
 ## Feedback
 
-Issues, Pull Requests, or [@jkintscher](https://twitter.com/jkintscher).
+Issues, Pull Requests, or [@jkintscher](https://twitter.com/jkintscher) more
+than welcome!
